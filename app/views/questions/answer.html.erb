@@ -1,0 +1,19 @@
+<h1>Coach answer</h1>
+
+<figure>
+<blockquote>
+<p><%= params[:question] %></p>
+</blockquote>
+<figcaption>You</figcaption>
+</figure>
+
+<figure>
+<blockquote>
+<p></p>
+</blockquote>
+<figcaption>
+<%= @answers %>
+</figcaption>
+</figure>
+
+<%= link_to "Ask another quesiton", ask_path %>
